@@ -52,3 +52,7 @@
   #root, #__next {
     isolation: isolate;
   }
+
+  *{
+    border: 1px dashed blanchedalmond;
+  }
