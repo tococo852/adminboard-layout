@@ -56,3 +56,71 @@
   *{
     border: 1px dashed blanchedalmond;
   }
+
+.dashboard>ul>li:not(.logo)>svg { 
+  width: 2rem;
+  height: 2rem;
+
+  fill: blanchedalmond;
+}
+.dashboard>ul>li:not(.logo){
+  font-size: 1.5rem;
+  color: blanchedalmond;
+}
+
+.logo>svg{
+  width: 2.7rem;
+  height: 2.7rem;
+  fill: blanchedalmond;
+
+}
+.logo{
+  font-size: 2.5rem;
+  color: blanchedalmond;
+
+}
+  .dashboard{
+    background-color: #0085ca;
+  }
+  .dashboard ul{
+    list-style: none;
+    margin:0;
+    padding: 0;
+
+  }
+
+.searchBar{
+  background: #f6f6f6;
+  border-radius: 28px;
+  padding: 8px 14px;
+
+}
+.searchBar input {
+  font-size: 16px;
+  font-family: 'Lexend', sans-serif;
+  color: #333333;
+  background: transparent;
+  outline: none;
+  border: none;
+  width: 100%;
+
+}
+
+.content{
+  background-color: #eeeeee;
+}
+.proyectName, .proyectTitle, .annName, .trendName{
+  font-size: 20px;
+  font-weight: 550;
+  font-family: 'Lexend', sans-serif;
+
+}
+.proyectCard{
+  background-color: white;
+  border-color: rgb(214, 200, 3);
+  border-left: 5px;
+  border-style: solid;
+  border-radius: 20px;
+  
+}
+
