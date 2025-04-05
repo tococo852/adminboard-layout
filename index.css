@@ -232,7 +232,30 @@ button{
 .annCard, .trendCard{
   background-color: white;
   border-radius: 20px;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 2px;
+  align-items: center;
 
 }
+.user{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.annTitle, .name{
+  font-weight: bold;
+}
+.nameTrend{
+  font-weight:lighter;
+}
+.icon{
+  background-color: #333333;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 2.5rem;
+}
+
+
 
